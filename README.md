@@ -1,0 +1,2 @@
+# Alacritty-Config
+Alacritty Configuration
