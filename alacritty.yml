@@ -1,6 +1,6 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 import:
- - ~/.config/alacritty/themes/themes/gruvbox_dark.yaml
+ - ~/.config/alacritty/themes/themes/ayu_dark.yaml
 
 #env:
   # TERM variable
@@ -28,7 +28,7 @@ window:
 
   decorations: buttonless
 
-  opacity: 0.95
+  opacity: 1
 
   startup_mode: Windowed
 
@@ -56,6 +56,4 @@ font:
     style: Italic
 
   size: 16.0
-
-
-
+  
