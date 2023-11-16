@@ -1,15 +1,14 @@
-# Configuration for Alacritty, the GPU enhanced terminal emulator.
 import:
- - ~/.config/alacritty/themes/themes/ayu_dark.yaml
+  - ~/.config/alacritty/themes/themes/ayu_dark.yaml
 
 #env:
-  # TERM variable
-  #
-  # This value is used to set the `$TERM` environment variable for
-  # each instance of Alacritty. If it is not present, alacritty will
-  # check the local terminfo database and use `alacritty` if it is
-  # available, otherwise `xterm-256color` is used.
-  #TERM: alacritty
+# TERM variable
+#
+# This value is used to set the `$TERM` environment variable for
+# each instance of Alacritty. If it is not present, alacritty will
+# check the local terminfo database and use `alacritty` if it is
+# available, otherwise `xterm-256color` is used.
+#TERM: alacritty
 
 window:
   dimensions:
@@ -34,7 +33,6 @@ window:
 
   title: Alacritty
 
-
 scrolling:
   history: 100000
 
@@ -56,4 +54,17 @@ font:
     style: Italic
 
   size: 16.0
-  
+
+key_bindings:
+  # Move the cursor to the left or right by word
+  - { key: Left, mods: Option, chars: "\x1bb" }
+  - { key: Right, mods: Option, chars: "\x1bf" }
+
+  # Move the cursor to the beginning of the line
+  - { key: Left, mods: Command, chars: "\x01" } # Ctrl + A
+  # Move the cursor to the end of the line
+  - { key: Right, mods: Command, chars: "\x05" } # Ctrl + E
+
+  # Copy and paste
+  - { key: C, mods: Command, action: Copy }
+  - { key: V, mods: Command, action: Paste }
