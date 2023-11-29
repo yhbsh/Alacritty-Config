@@ -1,23 +1,17 @@
 import:
   - ~/.config/alacritty/themes/themes/ayu_dark.yaml
 
-#env:
-# TERM variable
-#
-# This value is used to set the `$TERM` environment variable for
-# each instance of Alacritty. If it is not present, alacritty will
-# check the local terminfo database and use `alacritty` if it is
-# available, otherwise `xterm-256color` is used.
-#TERM: alacritty
+
+live_config_reload: true
 
 window:
   dimensions:
-    columns: 120
-    lines: 40
+    columns: 200
+    lines: 50
 
   position:
-    x: 350
-    y: 200
+    x: 60
+    y: 90
 
   padding:
     x: 5
