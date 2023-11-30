@@ -6,12 +6,12 @@ live_config_reload: true
 
 window:
   dimensions:
-    columns: 200
-    lines: 50
+    columns: 100
+    lines: 35
 
   position:
-    x: 60
-    y: 90
+    x: 455
+    y: 185
 
   padding:
     x: 5
