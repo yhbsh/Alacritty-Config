@@ -1,0 +1,73 @@
+import = ["/Users/home/.config/alacritty/themes/themes/tokyo-night.toml"]
+live_config_reload = true
+
+[font]
+size = 16.0
+
+[font.bold]
+family = "SFMono Nerd Font"
+style = "Regular"
+
+[font.bold_italic]
+family = "SFMono Nerd Font"
+style = "Italic"
+
+[font.italic]
+family = "SFMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "SFMono Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key = "Left"
+mods = "Option"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key = "Right"
+mods = "Option"
+
+[[keyboard.bindings]]
+chars = "\u0001"
+key = "Left"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0005"
+key = "Right"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Command"
+
+[scrolling]
+history = 100000
+
+[window]
+decorations = "buttonless"
+dynamic_padding = true
+opacity = 1
+startup_mode = "Windowed"
+title = "Alacritty"
+
+[window.dimensions]
+columns = 100
+lines = 35
+
+[window.padding]
+x = 5
+y = 5
+
+[window.position]
+x = 455
+y = 185
