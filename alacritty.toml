@@ -1,4 +1,4 @@
-import = ["/Users/home/.config/alacritty/themes/themes/tokyo-night.toml"]
+import = ["/Users/home/.config/alacritty/themes/themes/github_dark.toml"]
 live_config_reload = true
 
 [font]
