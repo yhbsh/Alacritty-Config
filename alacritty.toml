@@ -2,7 +2,7 @@ import = ["/Users/home/.config/alacritty/themes/themes/tomorrow_night_bright.tom
 live_config_reload = true
 
 [font]
-size = 16.0
+size = 14.0
 
 [font.bold]
 family = "SFMono Nerd Font"
@@ -54,20 +54,20 @@ mods = "Command"
 history = 100000
 
 [window]
-decorations = "buttonless"
-dynamic_padding = true
+decorations = "transparent"
+dynamic_padding = false
 opacity = 1
 startup_mode = "Windowed"
 title = "Alacritty"
 
 [window.dimensions]
-columns = 100
-lines = 35
+columns = 150
+lines = 40
 
 [window.padding]
 x = 5
-y = 5
+y = 25
 
 [window.position]
-x = 455
-y = 185
+x = 350
+y = 200
