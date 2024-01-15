@@ -20,6 +20,9 @@ style = "Italic"
 family = "SFMono Nerd Font"
 style = "Regular"
 
+[cursor]
+style = 'Beam'
+
 [[keyboard.bindings]]
 chars = "\u001Bb"
 key = "Left"
