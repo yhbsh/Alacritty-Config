@@ -22,6 +22,7 @@ style = "Regular"
 
 [cursor]
 style = 'Beam'
+unfocused_hollow = true
 
 [[keyboard.bindings]]
 chars = "\u001Bb"
