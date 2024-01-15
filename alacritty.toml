@@ -21,7 +21,7 @@ family = "SFMono Nerd Font"
 style = "Regular"
 
 [cursor]
-style = 'Beam'
+style = 'Underline'
 unfocused_hollow = true
 
 [[keyboard.bindings]]
