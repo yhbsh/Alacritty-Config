@@ -1,4 +1,3 @@
-import = ["/Users/home/.config/alacritty/themes/themes/tomorrow_night_bright.toml"]
 live_config_reload = true
 
 [font]
