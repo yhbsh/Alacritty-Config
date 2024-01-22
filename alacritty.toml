@@ -57,7 +57,7 @@ mods = "Command"
 history = 100000
 
 [window]
-decorations = "transparent"
+decorations = "none"
 dynamic_padding = false
 opacity = 1
 startup_mode = "Maximized"
