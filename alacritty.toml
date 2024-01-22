@@ -60,7 +60,7 @@ history = 100000
 decorations = "transparent"
 dynamic_padding = false
 opacity = 1
-startup_mode = "Windowed"
+startup_mode = "Maximized"
 title = "Alacritty"
 
 [window.dimensions]
