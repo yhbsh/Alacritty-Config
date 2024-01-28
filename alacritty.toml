@@ -1,4 +1,5 @@
-live_config_reload = true
+[env]
+TERM = "xterm-256color"
 
 [font]
 size = 14.0
@@ -7,21 +8,21 @@ size = 14.0
 family = "SFMono Nerd Font"
 style = "Regular"
 
-[font.bold_italic]
-family = "SFMono Nerd Font"
-style = "Italic"
-
-[font.italic]
-family = "SFMono Nerd Font"
-style = "Italic"
-
 [font.normal]
 family = "SFMono Nerd Font"
 style = "Regular"
 
-[cursor]
-style = 'Underline'
-unfocused_hollow = true
+[font.glyph_offset]
+x = 0
+y = 0
+
+[cursor.style]
+shape = "Block"
+blinking = "Never"
+
+[cursor.vi_mode_style]
+shape = "Underline"
+blinking = "Never"
 
 [[keyboard.bindings]]
 chars = "\u001Bb"
@@ -55,46 +56,43 @@ mods = "Command"
 
 [scrolling]
 history = 100000
+multiplier = 1
 
 [window]
 decorations = "none"
-dynamic_padding = false
+dynamic_padding = true
 opacity = 1
 startup_mode = "Maximized"
 title = "Alacritty"
 
-[window.dimensions]
-columns = 150
-lines = 40
-
 [window.padding]
-x = 5
-y = 25
+x = 0
+y = 0
 
 [window.position]
 x = 350
 y = 200
 
 [colors.primary]
-background = '#0A0E14'
-foreground = '#B3B1AD'
+background = '#000000'
+foreground = '#ffffff'
 
 [colors.normal]
-black   = '#01060E'
-red     = '#EA6C73'
-green   = '#91B362'
-yellow  = '#F9AF4F'
-blue    = '#53BDFA'
-magenta = '#FAE994'
-cyan    = '#90E1C6'
-white   = '#C7C7C7'
+black   = '#000000'
+red     = '#cd0000'
+green   = '#00cd00'
+yellow  = '#cdcd00'
+blue    = '#0000ee'
+magenta = '#cd00cd'
+cyan    = '#00cdcd'
+white   = '#e5e5e5'
 
 [colors.bright]
-black   = '#686868'
-red     = '#F07178'
-green   = '#C2D94C'
-yellow  = '#FFB454'
-blue    = '#59C2FF'
-magenta = '#FFEE99'
-cyan    = '#95E6CB'
-white   = '#FFFFFF'
+black   = '0x7f7f7f'
+red     = '0xff0000'
+green   = '0x00ff00'
+yellow  = '0xffff00'
+blue    = '0x5c5cff'
+magenta = '0xff00ff'
+cyan    = '0x00ffff'
+white   = '0xffffff'
