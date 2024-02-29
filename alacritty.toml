@@ -61,7 +61,7 @@ multiplier = 1
 [window]
 decorations = "none"
 dynamic_padding = true
-opacity = 0.9
+opacity = 1.0
 startup_mode = "Maximized"
 title = "Alacritty"
 
