@@ -2,7 +2,7 @@
 TERM = "xterm-256color"
 
 [font]
-size = 20.0
+size = 16.0
 
 [font.bold]
 family = "SFMono Nerd Font"
@@ -59,10 +59,10 @@ history = 100000
 multiplier = 1
 
 [window]
-decorations = "none"
-dynamic_padding = true
-opacity = 1.0
-startup_mode = "Maximized"
+decorations = "full"
+dynamic_padding = false
+opacity = 0.95
+startup_mode = "Windowed"
 title = "Alacritty"
 
 [window.padding]
@@ -72,6 +72,11 @@ y = 0
 [window.position]
 x = 350
 y = 200
+
+[window.dimensions]
+columns = 120
+lines = 40
+
 
 [colors.primary]
 background = '#000000'
