@@ -14,7 +14,7 @@ x = 0
 y = 0
 
 [cursor.style]
-shape = "Block"
+shape = "Underline"
 blinking = "Never"
 
 [cursor.vi_mode_style]
