@@ -16,6 +16,10 @@ shape = "Underline"
 decorations = "full"
 opacity = 1
 
+[window.position]
+x = 560
+y = 240
+
 [[keyboard.bindings]]
 chars = "\u001Bb"
 key = "Left"
