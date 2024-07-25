@@ -1,5 +1,5 @@
 [font]
-size = 18.0
+size = 12.0
 
 [font.bold]
 family = "SFMono Nerd Font"
@@ -13,11 +13,15 @@ style = "Medium"
 shape = "Underline"
 
 [window]
-decorations = "full"
-opacity = 1
+decorations = "Full"
+opacity = 0.95
+
+[window.dimensions]
+columns = 215
+lines = 45
 
 [window.position]
-x = 560
+x = 200
 y = 240
 
 [[keyboard.bindings]]
@@ -49,4 +53,3 @@ mods = "Command"
 action = "Paste"
 key = "V"
 mods = "Command"
-
