@@ -1,5 +1,5 @@
 [font]
-size = 12.0
+size = 16.0
 
 [font.bold]
 family = "SFMono Nerd Font"
@@ -14,14 +14,14 @@ shape = "Underline"
 
 [window]
 decorations = "Full"
-opacity = 0.95
+opacity = 1.0
 
 [window.dimensions]
-columns = 215
-lines = 45
+columns = 150
+lines = 30
 
 [window.position]
-x = 200
+x = 300
 y = 240
 
 [[keyboard.bindings]]
