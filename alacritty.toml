@@ -1,20 +1,23 @@
+[env]
+TERM = "xterm-256color"
+
 [font]
 size = 16.0
 
 [font.bold]
 family = "SFMono Nerd Font"
-style = "Bold"
+style = "Medium"
 
 [font.normal]
 family = "SFMono Nerd Font"
-style = "Medium"
+style = "Regular"
 
 [cursor.style]
 shape = "Underline"
 
 [window]
-decorations = "Full"
-opacity = 1.0
+decorations = "Buttonless"
+option_as_alt = "Both"
 
 [window.dimensions]
 columns = 150
@@ -53,3 +56,17 @@ mods = "Command"
 action = "Paste"
 key = "V"
 mods = "Command"
+
+[[keyboard.bindings]]
+key = "N"
+mods = "Command"
+action = "CreateNewWindow"
+
+[[keyboard.bindings]]
+key = "W"
+mods = "Command"
+action = "Quit"
+
+[colors.primary]
+background = "#000000"
+foreground = "#FFFFFF"
